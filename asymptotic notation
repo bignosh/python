@@ -1,0 +1,23 @@
+def ontime(n):
+    iteration = 0
+    print(n)
+    iteration = iteration+1
+    print("Number of iterations for ontime = ", iteration)
+ontime(7)
+
+def ontime1(n):
+    iteration1 = 0
+    for i in range(0, n):
+        iteration1 += 1
+    print("Number of iterations for ontime1 =", iteration1)
+ontime1(7)
+
+def ontime2(n):
+    iteration2 = 0
+    for i in range(0, n):
+        for j in range(0, n):
+            iteration2 += 1
+            print("*", end=" ")
+        print(" ")
+    print("Number of iterations for ontime2 = ", iteration2)
+ontime2(7)
